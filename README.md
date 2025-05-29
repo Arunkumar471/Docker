@@ -9,3 +9,18 @@
 container Stopped then we can see using `docker ps -a` to list
 then `docker start <cid>`
 or `docker rm <cid>` --> to remove container.
+
+
+## view images
+`docker images` --> images stored locally
+
+`docker ps -a` --> to view downloaded and stooped container
+
+"Note!: Docker run is the combination of create and start ( if we run docker run nginx 5 time it will create 5 process"
+use docker start to re run the stopped container.
+
+`docker pull <image:tag>` --> to pull the image from remote repository eg: Docker hub.
+
+## Remove image
+`docker rm <id or name>` --> to remove the docker image.
+
