@@ -24,3 +24,15 @@ use docker start to re run the stopped container.
 ## Remove image
 `docker rm <id or name>` --> to remove the docker image.
 
+## Filter
+`docker ps --filter name=<name>` -- filter sample name.
+we can use `docker ps -a | grep <name>` this will also work but we can go with docker native.
+
+
+## stop all/ remove all the containers running
+`docker ps -q` this till list all the container id's
+now we can use `docker stop $(docker ps -q)` to stop all the active containers
+
+
+similarly we can remove the containers using
+`docker rm $(docker ps -aq)`
