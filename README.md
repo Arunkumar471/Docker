@@ -42,3 +42,11 @@ we can run the commands on the detatched container running backend by using
 `docker exec -it <name/id> /bin/bash` or `docker exec -it <name/id> sh` it will open bash shell or it will open the shell.
 we can go inside that container.
 example we run nginx container then we go inside the container and modify the content /use/share/nginx/html and then we can find the index.html page.
+
+## Docker Image Building
+- The base layer -- minimum linux distribution like Alpine
+- Runtime Environment -- Specific software like Python or Node.js
+- Library & Dependencies -- Dependency codes
+- Application code -- Own Source Code
+- Configuration -- Settings of application and its environment
+
