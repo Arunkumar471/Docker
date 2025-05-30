@@ -1,4 +1,4 @@
-"# Docker# "
+# Docker 
 
 # Container Life Cycle
 
@@ -50,3 +50,13 @@ example we run nginx container then we go inside the container and modify the co
 - Application code -- Own Source Code
 - Configuration -- Settings of application and its environment
 
+## container Registries
+Storing and managing docker images
+- Collabouration -- SHare with teammates
+- versioning -- track different version of the images
+- Security --private registy provide secure environment
+- Automation -- Automate image building and deployment for CICD pipeline.
+
+Types of Container Registry
+- public registry --> Docker hub
+- Private registry --> Elastic container registry and ACR.
